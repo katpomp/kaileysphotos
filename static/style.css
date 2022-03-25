@@ -1,0 +1,74 @@
+*, html {
+
+}
+
+body {
+    font-size: xxx-large;
+    background-image: url("/static/neon_out.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img.profilepic {
+    margin-top: 2em;
+    min-width: 32px;
+    max-width: 10%;
+    border-radius: 50%;
+    margin-left: 15px;
+    opacity: 100%;
+}
+
+h1.rule1 {
+    font-family: "Bitstream Vera Sans Mono", serif;
+    font-size: xxx-large;
+    max-width: 100%;
+    color: lightskyblue;
+    text-align: center;
+    margin-top: 1ex;
+    width: 100%;
+    inline-size: auto;
+}
+
+p.rule2 {
+    font-family: "Constantia bold", serif;
+    font-size: medium;
+    color: pink;
+    text-align: center;
+    -webkit-text-decoration-color: white;
+    border-width: thick;
+    margin-bottom: 2ex;
+}
+
+a.rule3 {
+    font-family: "constantia", serif;
+    font-size: medium;
+}
+
+svg.arrow {
+    length: 3ex;
+    height: 3ex;
+    -webkit-text-decoration-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    max-width: 5ex;
+    box-shadow: 0 8ex 16ex 0 rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    opacity: 100%;
+    font-size: medium;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 100%;
+}
