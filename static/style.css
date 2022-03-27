@@ -2,12 +2,17 @@
 
 }
 
-body {
+body.index {
     font-size: xxx-large;
     background-image: url("/static/neon_out.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+body {
+    font-size: xxx-large;
+    background-color: #e0f3ff;
 }
 
 nav {
@@ -31,6 +36,12 @@ li {
     background-color: lightskyblue;
 }
 
+li.subheader {
+    display: inline;
+    padding: 8px;
+    background-color: #0073cf;
+}
+
 a:link {
     text-decoration: none;
     color: white;
@@ -44,8 +55,16 @@ link:visited {
 img.profilepic {
     margin-top: 2em;
     min-width: 32px;
-    max-width: 10%;
+    max-width: 8%;
     border-radius: 50%;
+    margin-left: 15px;
+    opacity: 100%;
+}
+
+img.links {
+    margin-top: 2em;
+    min-width: 32px;
+    max-width: 8%;
     margin-left: 15px;
     opacity: 100%;
 }
@@ -76,6 +95,15 @@ a.rule3 {
 div.header {
     display: flex;
     margin: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.subheader {
+    display: flex;
+    margin-top: 1ex;
     width: 100%;
     text-align: center;
     align-items: center;
