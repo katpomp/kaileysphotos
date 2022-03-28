@@ -17,8 +17,6 @@ def fall():
 def aboutme():
     return render_template('aboutme.html')
 
-<<<<<<< HEAD
-=======
 
 @app.route('/football')
 def football():
