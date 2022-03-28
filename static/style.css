@@ -11,14 +11,14 @@ body.index {
 }
 
 body.football {
-    background-image: url("/static/footballbg.jpg");
+    background-image: url("/static/football/footballbg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 body.cheerleading {
-    background-image: url("/static/cheerbg.jpg");
+    background-image: url("/static/cheerleading/cheerbg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -26,14 +26,14 @@ body.cheerleading {
 }
 
 body.volleyball {
-    background-image: url("/static/volleyballbg.jpg");
+    background-image: url("/static/gsoccer/volleyballbg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 body.bbasketball {
-    background-image: url("/static/basketballbg.jpg");
+    background-image: url("/static/basketball/basketballbg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
