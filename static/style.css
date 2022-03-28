@@ -10,6 +10,27 @@ body.index {
     background-size: cover;
 }
 
+body.football {
+    background-image: url("/static/footballbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.cheerleading {
+    background-image: url("/static/cheerbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body.volleyball {
+    background-image: url("/static/volleyballbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 body {
     font-size: xxx-large;
     background-color: #e0f3ff;
