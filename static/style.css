@@ -32,6 +32,13 @@ body.volleyball {
     background-size: cover;
 }
 
+body.bbasketball {
+    background-image: url("/static/basketballbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 body {
     font-size: xxx-large;
     background-color: #e0f3ff;
