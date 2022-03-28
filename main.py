@@ -33,7 +33,6 @@ def volleyball():
     return render_template('volleyball.html')
 
 
->>>>>>> 6b7c3b34519a72fe26a0c26b6543ac67545bc41d
 @app.route('/springsports')
 def spring():
     return render_template('springsports.html')
