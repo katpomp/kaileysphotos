@@ -103,9 +103,10 @@ h1.rule1 {
     max-width: 100%;
     color: lightskyblue;
     text-align: center;
-    margin-top: 1ex;
+    margin-top: 0;
     width: 100%;
     inline-size: auto;
+    margin-bottom: 0;
 }
 
 p.rule2 {
